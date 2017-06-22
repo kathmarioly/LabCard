@@ -121,4 +121,25 @@ body, html {
 	color: black;
 }
 
-.end
+footer{
+	background-color: #2b2b2b;
+	color: white;
+}
+
+ .footer_dv li{
+	list-style: none;
+	
+}
+.footer_dv a{
+	color: white;
+	margin-top: 80px;
+	margin: 20px;
+}
+
+.texto-footer{
+	margin-top: 50px;
+}
+
+.texto-footer p{
+	text-align: center;
+}
