@@ -22,21 +22,28 @@ body, html {
 
 
 
-.registro-col{
+.registro{
 
-	background-color: #f7b617;
 	
 	position: absolute;
-	width: 500px;
-	height: auto;
-	padding-bottom: 10px;
-	padding-left: 20px;
-	top: 50px;
+	
+
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
-	text-align: left;
+	
 }
 
+.registro-col{
+	background-color: #f7b617;
+	color: white;
+	padding-left: 20px;
+	top: 50px;
+	width: 350px;
+	height: auto;
+	padding-bottom: 10px;
+	font-size: 12px;
+	
+}
 
 
 
@@ -126,7 +133,7 @@ footer{
 	color: white;
 }
 
- .footer_dv li{
+.footer_dv li{
 	list-style: none;
 	
 }
@@ -138,8 +145,16 @@ footer{
 
 .texto-footer{
 	margin-top: 50px;
+	color: white;
 }
 
 .texto-footer p{
 	text-align: center;
+}
+
+.footer-icon i{
+	display: inline-block;
+}
+.texto-footer i{
+	color: white;
 }
