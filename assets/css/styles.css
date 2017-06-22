@@ -107,7 +107,7 @@ body, html {
 }
 
 /*Quinta sección*/
-.tarifa-col{
+.tarifas{
 	background-color: #f7b617; 
 	padding: 30px 0;
 }
@@ -120,3 +120,5 @@ body, html {
 .conviertete{
 	color: black;
 }
+
+.end
