@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>LabCard</title>
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -55,50 +56,67 @@
 
 	<!--Dios... al fin... despues de ordenar las columnas de mil formas... y meter por todos lados el pull-right, consegui mover la caja de texto-->
 
-<section class="descargar">
-	<div class="container-fluid">
-		<div class="row borde">
-			<div class="col-md-12 col-xs-12">
-				<div class=" celular col-lg-6 xs-12">
-					<img src="assets/img/celular.png" alt="" class="img-responsive">
-				</div>
-				<div class="cajaTex col-lg-5 col-xs-12">	
-					<h1 id="titulo">Descarga la nueva app</h1>
-					<br>
-					<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-					<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+	<section class="descargar">
+		<div class="container-fluid">
+			<div class="row borde">
+				<div class="col-md-12 col-xs-12">
+					<div class=" celular col-lg-6 xs-12">
+						<img src="assets/img/celular.png" alt="" class="img-responsive">
+					</div>
+					<div class="cajaTex col-lg-5 col-xs-12">	
+						<h1 id="titulo">Descarga la nueva app</h1>
+						<br>
+						<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+						<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
 
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
 
-<!--cuarta seccion-->
+	<!--cuarta seccion-->
 
-<section class="conduce container-fluid">
-	<div class="conducir-col col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-right ">
-		<h3>Conduce cuando quieras</h3>
-		<p>LabCar es una opción flexible para alcanzar tus metas financiera.</p>
-		<button class="conviertete">Conviértete en conductor</button>
-	</div>
-</section>
+	<section class="conduce container-fluid">
+		<div class="conducir-col col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-right ">
+			<h3>Conduce cuando quieras</h3>
+			<p>LabCar es una opción flexible para alcanzar tus metas financiera.</p>
+			<button class="conviertete">Conviértete en conductor</button>
+		</div>
+	</section>
 
-<!--quinta seccion-->
+	<!--quinta seccion-->
 
-<section class="costo container-fluid">
-	<div class="tarifa-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
-		<h3>TARIFA</h3>
-		<p>Consulta las tarifas LabCar aqui!</p>
-		<button class="conviertete">Conviértete en conductor</button>
-	</div>
-</section>
+	<section class="costo container-fluid">
+		<div class="tarifa-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+			<h3>TARIFA</h3>
+			<p>Consulta las tarifas LabCar aqui!</p>
+
+			<!--Esto lo saque de https://www.w3schools.com/bootstrap/bootstrap_forms_inputs2.asp-->
+			<form class="form-horizontal" action="/action_page.php">
+				<div class="form-group">
+					<label class="control-label col-sm-1" for="pwd"><i class="fa fa-circle-o" aria-hidden="true"></i></label>
+					<div class="col-sm-10">          
+						<input type="text" class="form-control" id="pwd" placeholder="Ingrese su punto de partida" name="pwd">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-1" for="pwd"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></label>
+					<div class="col-sm-10">          
+						<input type="text" class="form-control" id="pwd" placeholder="Ingrese su destino" name="pwd">
+					</div>
+				</div>
+				<button class="conviertete">Trazar ruta</button>
+			</form>
+			
+		</div>
+	</section>
 
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
 
