@@ -101,6 +101,22 @@ body, html {
 	border-radius: 5px;
 	padding: 5px 7px;
 	margin: 10px;
+	margin-left: 0;
 	font-weight: bold;
 	font-size: 1px;
+}
+
+/*Quinta sección*/
+.tarifa-col{
+	background-color: #f7b617; 
+	padding: 30px 0;
+}
+
+.costo{
+	color: white;
+	margin-left: 0;
+}
+
+.conviertete{
+	color: black;
 }
