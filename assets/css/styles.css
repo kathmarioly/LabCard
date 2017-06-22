@@ -21,10 +21,11 @@ body, html {
 
 
 
-.registro{
+
+.registro-col{
 
 	background-color: #f7b617;
-	color: white;
+	
 	position: absolute;
 	width: 500px;
 	height: auto;
@@ -33,7 +34,7 @@ body, html {
 	top: 50px;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
-	text-align: right;
+	text-align: left;
 }
 
 
